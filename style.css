@@ -1,0 +1,240 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #252525;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/* MENU */
+.menu {
+  background-color: #252525;
+  margin: auto;
+  height: 100%;
+}
+.menu-container a img {
+  margin-left: 25px;
+}
+.menu-a {
+  margin: 0;
+}
+.menu-a li a {
+  text-decoration: none;
+}
+.menu-container {
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu .menu-container nav ul {
+  display: flex;
+  gap: 40px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.menu-container nav ul li {
+  font-size: 1.125em;
+  border-bottom: solid 2px #252525;
+  padding-bottom: 5px;
+  transition: 0.3s;
+}
+.menu-container nav ul li a {
+  color: #fff;
+  padding: 15px 0;
+  cursor: pointer;
+  width: 60px;
+}
+.menu-container nav ul li:hover {
+  color: #937c55;
+  border-bottom: solid 2px #937c55;
+}
+
+.bg-intro {
+  height: 390px;
+  max-width: 100%;
+  background-color: #937c55;
+  background: url(./img/bg-intro1.png) no-repeat center;
+  background-size: cover;
+}
+
+.bg-intro h1 {
+  color: #fff;
+  max-width: 750px;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 250px;
+}
+
+/* SOBRE */
+.sobre {
+  padding-top: 60px;
+  background-color: #fff;
+}
+.sobre-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.sobre h2 {
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 2.25em;
+  color: #4b3e29;
+}
+.sobre-item {
+  position: relative;
+  background-color: aquamarine;
+}
+.sobre-item h3 {
+  position: absolute;
+  background-color: #c09c5d;
+  color: #fff;
+  padding: 20px;
+  bottom: 0;
+  right: 0;
+}
+.sobre p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 410px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.125em;
+  line-height: 1.65;
+  color: #302411;
+}
+
+/* PRODUTOS */
+.produtos {
+  padding: 150px 0px 100px 0;
+  background-color: #c0b299;
+  border-top: 2px solid #a78e67;
+  border-bottom: 2px solid #a78e67;
+}
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-left: 10px;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.produtos-item {
+  max-width: 300px;
+}
+.produtos-item h2 {
+  padding: 20px 0;
+}
+.produtos-item {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.produtos-item h2 {
+  position: relative;
+  font-size: 2.25em;
+}
+
+.produtos-item h2::before {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 96px;
+  top: -130px;
+  border: 5px solid #cab99a;
+  box-shadow: 0 0 0 5px #302411;
+}
+.produtos-item p {
+  text-align: left;
+  font-size: 1.125em;
+  max-width: 290px;
+  padding: 5px;
+}
+h2.produtos-p::before {
+  background-color: #302411;
+  box-shadow: 0 0 0 5px #302411;
+}
+h2.produtos-c::before {
+  background-color: #c17139;
+  box-shadow: 0 0 0 5px #c17139;
+}
+h2.produtos-m::before {
+  background-color: #d7a54d;
+  box-shadow: 0 0 0 5px #d7a54d;
+}
+
+.produtos-btn {
+  display: block;
+  background-color: #302411;
+  color: #fff;
+  padding: 15px 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  text-decoration: none;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.produtos-btn:hover {
+  background-color: #aa803c;
+}
+
+.locais {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.locais-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 80px;
+  padding: 20px;
+}
+.locais-item + .locais-item {
+  margin-top: 40px;
+}
+
+.locais-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.locais-texto h2 {
+  font-size: 1.8em;
+  margin: 0;
+}
+.locais-texto p {
+  font-size: 1.2em;
+  line-height: 1.3;
+  max-width: 30ch;
+  margin: 0;
+}
+.btn {
+  width: 130px;
+  align-self: start;
+}
