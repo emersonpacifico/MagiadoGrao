@@ -328,8 +328,10 @@ h2.produtos-m::before {
   }
   .sobre h2 {
     padding-bottom: 30px;
+    padding: 10px;
   }
   .sobre-container {
+    padding: 10px;
     gap: 50px;
   }
   .sobre p {
@@ -369,7 +371,8 @@ h2.produtos-m::before {
     color: #252525;
   }
   .footer-itens p {
-    font-size: 0.975em;
+    font-size: 0.875em;
+    padding: 0 10px;
   }
   .footer-itens img {
     padding: 20px 0;
