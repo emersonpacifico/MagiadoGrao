@@ -428,9 +428,9 @@ h2.produtos-m::before {
     box-shadow: 0 0 0 2px #302411;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 393px) {
   .menu .menu-container a img {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .menu .menu-container nav ul {
     gap: 33px;
