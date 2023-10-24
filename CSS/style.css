@@ -331,7 +331,6 @@ h2.produtos-m::before {
     margin: 0 auto;
   }
   .menu-container img {
-    background-color: #0b5ed7;
     margin: 0px;
   }
   .carousel,
@@ -397,8 +396,11 @@ h2.produtos-m::before {
 }
 
 @media (max-width: 450px) {
+  .menu .menu-container {
+    gap: 15px;
+  }
   .menu .menu-container a img {
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .menu .menu-container nav ul {
     padding: 0 10px;
@@ -408,7 +410,6 @@ h2.produtos-m::before {
     padding: 10px 0;
   }
   .produtos .produtos-item {
-    background-color: #0b5ed7;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -430,5 +431,8 @@ h2.produtos-m::before {
 @media (max-width: 390px) {
   .menu .menu-container a img {
     margin-left: 20px;
+  }
+  .menu .menu-container nav ul {
+    gap: 33px;
   }
 }
