@@ -2,7 +2,7 @@
 @import "./global.css";
 
 /* Page Home */
-@import "../pageHome/pageHome.css";
+@import "./pageHome.css";
 
 /* Produtos */
-@import "../Produtos/produtos.css";
+@import "./produtos.css";
