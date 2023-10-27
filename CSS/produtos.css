@@ -38,60 +38,59 @@ img {
   cursor: pointer;
 }
 .container-cap {
-  background-color: var(--color-08);
+  background-color: var(--color-09);
+  height: 70vh;
 }
 .produtos-cap {
+  padding: 60px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
-  padding: 30px 0;
+  gap: 30px;
+  height: 100%;
 }
-.produtos-texto {
+.produto-item {
+  padding-left: 20px;
+  height: 140px;
+  background-color: var(--color-05);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 25px;
-  height: 550px;
-  background-color: var(--color-05);
-  color: var(--color-09);
-  text-align: left;
+  justify-content: space-evenly;
 }
-.produto-item + .produto-item {
-  margin-top: 50px;
+.produto-item h3 {
+  border-bottom: 3px solid var(--color-02);
+  padding-bottom: 10px;
 }
-.preco,
-.sabor,
-.tempo {
-  border: 2px solid var(--color-02);
-  width: 390px;
-  padding: 20px;
-  text-align: left;
+
+.bebidas-img {
+  max-width: 200px;
+  object-fit: cover;
 }
+.produtos-texto,
 .bebidas {
-  padding: 60px;
+  height: 100%;
+}
+.produtos-texto {
+  background-color: var(--color-08);
+  width: 400px;
+  height: 100%;
+  border: 2px solid var(--color-07);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bebidas {
+  max-width: 100%;
+  padding: 40px;
+  background-color: blueviolet;
   display: grid;
+  justify-items: center;
+  gap: 5px 90px;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 30px;
 }
 .bebidas h1 {
   grid-column: 1/-1;
-  color: var(--color-02);
-}
-.bebidas-img {
-  max-width: 320px;
-}
-.bebidas-itens {
-  position: relative;
-}
-.bebidas-itens span {
-  background-color: var(--color-07);
-  padding: 10px;
-  position: absolute;
-  top: 220px;
-  font-weight: bold;
-}
-.bebidas-itens p {
-  margin-top: 12px;
-  color: var(--color-02);
+  justify-self: flex-start;
 }
